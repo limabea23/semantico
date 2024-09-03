@@ -7,8 +7,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    color: rgb(255, 0, 157);
-    color: rgb(178, 181, 196), 128, 128;
+    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255), 128, 128;
 }
 /* cabeçalho do site*/
 .site-header{
@@ -20,4 +20,9 @@ body{
 .site-title{
     margin-bottom: 10px;
     font-size: 2em;
+}
+.main-nav .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
